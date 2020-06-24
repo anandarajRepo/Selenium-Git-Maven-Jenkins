@@ -31,8 +31,8 @@ public class NewTest {
 			
 			Thread.sleep(3000);
 			
-			driver.findElement(By.xpath("//input[@id=\"ap_email\"]")).sendKeys("anandaraj76@gmail.com");
-			driver.findElement(By.xpath("//input[@id=\"ap_password\"]")).sendKeys("619619619");
+			driver.findElement(By.xpath("//input[@id=\"ap_email\"]")).sendKeys("***");
+			driver.findElement(By.xpath("//input[@id=\"ap_password\"]")).sendKeys("***");
 			driver.findElement(By.xpath("//input[@id=\"signInSubmit\"]")).click();
 			
 			Thread.sleep(3000);
